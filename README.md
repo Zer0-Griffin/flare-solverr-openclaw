@@ -135,7 +135,7 @@ If you host FlareSolverr on a separate machine (like your Boris hypervisor's VM)
 2. Ensure port 8191 is open in the firewall:
    - Windows: `New-NetFirewallRule -DisplayName "FlareSolverr" -Direction Inbound -LocalPort 8191 -Protocol TCP -Action Allow`
    - Linux: `ufw allow 8191/tcp`
-3. Update your OpenClaw TOOLS.md with the remote VM's IP (e.g., `http://192.168.0.98:8191/`)
+3. Update your OpenClaw TOOLS.md with the remote VM's IP (e.g., `http://[IP_Address_Here]:8191/`)
 
 ## Architecture
 
