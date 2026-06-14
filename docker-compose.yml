@@ -1,0 +1,11 @@
+version: "3"
+services:
+  flaresolverr-openclaw:
+    image: ghcr.io/Zer0-Griffin/flaresolverr-openclaw:latest
+    container_name: flaresolverr-openclaw
+    environment:
+      - LOG_LEVEL=${LOG_LEVEL:-info}
+      - PORT=8191
+    ports:
+      - "${FLARESOLVERR_PORT:-8191}:8191"
+    restart: unless-stopped
