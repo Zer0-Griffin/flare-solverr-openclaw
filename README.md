@@ -23,7 +23,7 @@ License: MIT License (see LICENSE file in this repo)
 ### Single-command install (Windows)
 
 ```powershell
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/flaresolverr-openclaw/main/install.ps1 | powershell -ExecutionPolicy Bypass -
+curl -sSL https://raw.githubusercontent.com/Zer0-Griffin/flaresolverr-openclaw/main/install.ps1 | powershell -ExecutionPolicy Bypass -
 ```
 
 The installer will:
@@ -36,7 +36,7 @@ The installer will:
 ### Single-command install (Linux)
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/YOUR-USERNAME/flaresolverr-openclaw/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Zer0-Griffin/flaresolverr-openclaw/main/install.sh | bash
 ```
 
 ### Docker
@@ -46,7 +46,7 @@ docker run -d \
   --name=flaresolverr-openclaw \
   -p 8191:8191 \
   -e LOG_LEVEL=info \
-  ghcr.io/YOUR-USERNAME/flaresolverr-openclaw:latest
+  ghcr.io/Zer0-Griffin/flaresolverr-openclaw:latest
 ```
 
 ## Configuration
